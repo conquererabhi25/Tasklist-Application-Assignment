@@ -1,0 +1,279 @@
+.task-list-main-box{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px){
+  .task-list-main-box{
+    width: 95vw;
+  }
+}
+
+.task-form{
+padding: 10px;
+background-color: #ffffff;
+margin: 10px;
+border-radius: 8px;
+}
+
+.taskInput-container{
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+}
+
+.tasklist-card{
+  background-color: rgb(238, 133, 151);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 768px){
+  .tasklist-card{
+    width: 90vw;
+  }
+}
+
+
+.taskinput{
+  border: none;
+  outline: none;
+  font-weight: bold;
+  margin: 10px;
+  height: 20px;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 768px){
+  .taskinput{
+    width: 60vw;
+    font-size: 16px;
+  }
+}
+
+.taskDesc{
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  height: 20px;
+}
+
+@media screen and (max-width: 768px){
+  .taskDesc{
+    width: 60vw;
+  }
+}
+
+.otherInput{
+  width: 10vw;
+  padding-left: 4px;
+  border-radius: 6px;
+  margin-right: 7px;
+  border-color: rgb(179, 177, 177);
+}
+
+@media screen and (max-width: 768px){
+  .otherInput{
+    width: 30vw;
+    margin-left: 8px;
+    margin-bottom: 10px;
+  }
+}
+
+
+.dueDate{
+border-radius: 5px;
+cursor: pointer;
+margin-left: 10px;
+margin-right: 7px;
+}
+
+@media screen and (max-width: 768px){
+  .dueDate{
+    width: 30vw;
+    margin-bottom: 10px;
+  }
+}
+
+.task-details{
+  width: 70vw;
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .task-details {
+    flex-direction: column;
+  }
+}
+
+.heading{
+  margin-left: 10px;
+  color: white;
+  font-family: system-ui;
+  font-size: 24px;
+}
+
+.task-footer{
+  width: 60vw;
+  display: flex;
+  margin-top: 8px;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 768px){
+  .task-footer{
+    width: 80vw;
+  }
+}
+
+.cancel-btn{
+  background-color: red;
+  color: white;
+  margin-right: 8px;
+  border: 2px solid red;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.add-task-list{
+  background-color: rgb(117, 117, 236);
+  color: white;
+  margin-right: 8px;
+  border: 2px solid rgb(117, 117, 236);
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.prioritySelector{
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+  .prioritySelector{
+    width: 30vw;
+    margin-left: 7px;
+    margin-bottom: 10px;
+  }
+}
+
+.highPrio{
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.MediumPrio{
+  background-color: orange;
+  color: white;
+  cursor: pointer;
+}
+
+.lowPrio{
+  background-color: green;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.unordered-list{
+  list-style: none;
+  padding-left: 15px;
+}
+
+@media screen and (max-width: 768px){
+  .unordered-list{
+    margin-right: 12px;
+  }
+}
+
+
+.eachTaskList{
+  background-color: #ffffff;
+  padding: 8px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.taskdecend{
+  font-size: 12px;
+}
+
+.taskDetailItem{
+  font-size: 14px;
+  color: black;
+  margin-right: 8px;
+  font-weight: 500;
+}
+
+.shortele{
+ font-size: 13px;
+ color: gray;
+}
+
+.task-actions{
+  width: 50vw;
+  display: flex;
+  justify-content:flex-end ;
+}
+
+@media screen and (max-width: 768px){
+  .task-actions{
+    margin-top: 10px;
+    width: 80vw;
+  }
+}
+
+
+.Startbutton{
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.endbutton{
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.Deletebutton{
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+  padding: 3px;
+}
+
+.status{
+  display: flex;
+  width: 50vw;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px){
+  .status{
+    width: 80vw;
+  }
+}
+
+.taskStatus{
+  margin-right: 20px;
+  font-size: 12px;
+}
+
+.tasksectiontext{
+  text-align: center;
+}
